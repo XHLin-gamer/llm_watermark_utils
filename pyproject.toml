@@ -1,0 +1,23 @@
+[project]
+name = "llm-watermark-utils"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "accelerate>=1.11.0",
+    "google>=3.0.0",
+    "google-genai>=1.49.0",
+    "langchain>=1.0.4",
+    "langchain-community>=0.4.1",
+    "langchain-openai>=1.0.2",
+    "loguru>=0.7.3",
+    "tqdm>=4.67.1",
+    "transformers>=4.57.1",
+]
+
+
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true
